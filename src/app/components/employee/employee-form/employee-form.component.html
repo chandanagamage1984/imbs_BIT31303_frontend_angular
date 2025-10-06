@@ -44,7 +44,7 @@
             <mat-form-field appearance="outline" class="full-width">
                 <mat-label>Salary</mat-label>
                 <input matInput type="number" formControlName="salary" placeholder="Enter salary">
-                <span matPrefix>$&nbsp;</span>
+                <span matPrefix> Rs.&nbsp;</span>
                 <mat-error *ngIf="salary?.hasError('required')">
                     Salary is required
                 </mat-error>
