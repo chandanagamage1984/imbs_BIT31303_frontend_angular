@@ -4,5 +4,6 @@ export const environment = {
   httpsApiUrl: "https://localhost:7155/api",
 
   // Set the default URL to be used by services
-  apiUrl: "https://localhost:7155/api",
+  //apiUrl: "https://localhost:7155/api", // Uncomment for ASP.NET Core
+  apiUrl: "http://localhost:8080/api", // Uncomment for Spring Boot
 };
