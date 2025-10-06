@@ -1,0 +1,28 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.sidenav-container {
+  height: calc(100vh - 64px);
+}
+
+mat-sidenav {
+  width: 250px;
+  background: #fafafa;
+}
+
+.content {
+  padding: 0;
+  height: 100%;
+}
+
+.active {
+  background-color: #e3f2fd !important;
+  color: #1976d2 !important;
+}
+
+@media (max-width: 768px) {
+  mat-sidenav {
+    width: 200px;
+  }
+}
